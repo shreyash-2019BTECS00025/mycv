@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color:#FDF6F0;
+            margin: 100px 150px;
+        }
+        hr{
+            border-style: none;
+            border-top-style: dotted;
+            border-width: 5px;
+            border-color: grey;
+            width: 5%;
+        }
+        input{
+            width: 100%;
+        }
+        h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50px;
+        }
+
+
+        .inp{
+            width: 25%;
+            margin: 1%;
+        }
+    </style>
+    <title>Contact Me</title>
+</head>
+<body>
+    <h2>Contact Me through following form</h2>
+    <form name="contact" onsubmit="return fun()">
+        <p>Name      : <input type="text" size="70" name="nm"></p>
+        <p>Email     : <input type="text" size="70" name="mail"></p>
+        <p>Mobile No : <input type="text" size="70" name="mob"></p>
+        <p>Purpose   : <input type="text" size="70" name="purpose"></p>
+        <input type="submit" value="Send" name="Submit" class="inp">
+        <input type="reset" value="Reset" name="Reset" class="inp">
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
